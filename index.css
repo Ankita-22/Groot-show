@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root{
+     --primary-color :#10B981;
+     /* --secondary-color:#78350F; */
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    top:0px;
+    font-family: 'Lobster', cursive;
+}
+textarea{
+    width: 50%;
+    display:block;
+    height: 18vh;
+    margin: 1rem;
+    margin: auto;
+    color: var(--secondary-color);
+    margin-top: 2rem;  
+    font-family: 'Lobster', cursive;
+}
+#output{
+    border: 1px solid black;
+    height:11vh;
+    width:50%;
+    padding-top: 0;
+    margin: auto;
+    
+}
+.head{
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);;
+    color: var(--secondary-color);
+}
+.head h1{
+    text-align: center;
+    /* background-color: var(--primary-color);; */
+}
+button{
+    background-color: var(--primary-color);
+    border: none;
+    height: 3rem;
+    margin-left: 21rem ;
+    margin-top: 2rem;
+    font-family: 'Lobster', cursive;
+    font-size: large;
+    color: var(--secondary-color);
+}
+
+.translate{
+    margin-left: 21rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--secondary-color);
+    /* border-top-right-radius: 1rem; */
+    margin-top: 3rem
+}
+.footer.footer-header{
+    font-weight:bold;
+    /* font-size: large; */
+    padding: 1rem;
+}
